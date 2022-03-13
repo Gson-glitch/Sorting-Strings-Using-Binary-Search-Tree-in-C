@@ -4,7 +4,11 @@ The program uses binary search tree.
 Usage
 # With no command line arguments
 gcc -o bstsort bstsort.c
+
+
 ./bstsort
+
+
 [
 
 
@@ -15,12 +19,17 @@ Press enter twice after the last word.
 
 # With command line arguments [-o]
 gcc -o bstsort bstsort.c
+
+
 ./bstsort -o [OUTPUTFILE] [INPUTFILE]
+
 
 
 # With command line arguments [-c]
 # The -c option only sorts the words that are entirely upper case.
 gcc -o bstsort bstsort.c
+
+
 ./bstsort -c [INPUTFILE]
 
 
